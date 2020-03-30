@@ -216,8 +216,6 @@ let result = '';
 					console && console.error('Method ' + method + ' does not exist on jQuery.roulette');
 				}
 			} else {
-
-
 				roulette = new Roulette(method);
 				roulette.init(self, method);
 				$(this).data('plugin_' + pluginName, roulette);
@@ -225,7 +223,3 @@ let result = '';
 		});
 	}
 })(jQuery);
-
-
-
-
