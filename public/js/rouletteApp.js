@@ -135,15 +135,15 @@ jQuery(function($){
         updateParamater(winnerId);
         rouletter.roulette('start');
         rouletter2.roulette('start');
-        // setTimeout(() => {
-        //     rouletter2.roulette('start');
-        // }, 100);
-        // setTimeout(() => {
-        //     rouletter3.roulette('start');
-        // }, 150);
-        // setTimeout(() => {
-        //     rouletter4.roulette('start');
-        // }, 200);
+        setTimeout(() => {
+            rouletter2.roulette('start');
+        }, 100);
+        setTimeout(() => {
+            rouletter3.roulette('start');
+        }, 150);
+        setTimeout(() => {
+            rouletter4.roulette('start');
+        }, 200);
         rouletter3.roulette('start');
         rouletter4.roulette('start');
 
@@ -276,4 +276,3 @@ jQuery(function($){
     rouletter4.roulette(r4);
 
 });
-
